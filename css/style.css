@@ -9,9 +9,17 @@ body {
 }
 
 header {
+  position: fixed;
   height: 50px;
   background-color: rgb(255, 105, 0);
   font-size: 10px;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+main{
+  padding-top: 50px;
 }
 
 footer{
