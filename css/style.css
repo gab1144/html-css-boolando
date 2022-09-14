@@ -42,7 +42,7 @@ header .menu li a {
   font-weight: 800;
 }
 .container{
-  width: 70%;
+  width: 75%;
   margin: auto;
 }
 
@@ -51,4 +51,110 @@ header .container {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+}
+
+main .container {
+  margin-top: 50px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product{
+	display: inline-block;
+	position: relative;
+	width: 300px;
+  height: 505px;
+}
+
+.product img{
+  width: 100%;
+}
+
+.product .heart{
+	position: absolute;
+	top: 10px;
+	right: 0;
+	text-align: center;
+	width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background-color: white;
+}
+
+.tag {
+  display: flex;
+  position: absolute;
+  top: 390px;
+  left: 0;
+  
+}
+
+.product .discount{
+  padding: 3px 10px 3px 10px;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  margin-right: 2px;
+}
+
+.product .sost {
+  padding: 3px 10px 3px 10px;
+  font-size: 10px;
+  background-color: rgb(0, 128, 0);
+  color: white;
+  font-weight: 600;
+}
+
+.product .imgb{
+	display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.product .imga{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.product:hover .imgb{
+	display: block;
+}
+
+.text {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+}
+
+.brand, .name-product, .price {
+  display: block;
+}
+
+.brand {
+  font-size: 10px;
+}
+
+.name-product{
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.price {
+  color: red;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.old-price {
+  color: black;
+  font-weight: 400;
+  text-decoration:line-through ;
 }
