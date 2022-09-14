@@ -14,6 +14,12 @@ header {
   font-size: 10px;
 }
 
+footer{
+  height: 90px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+
 header ul {
   display: flex;
   list-style: none;
@@ -157,4 +163,44 @@ main .container {
   color: black;
   font-weight: 400;
   text-decoration:line-through ;
+}
+
+footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  font-size: 15px;
+}
+
+.info ul {
+  display: flex;
+  list-style: none;
+}
+
+.info ul li {
+  margin-right: 10px;
+}
+
+.info ul li a, .link-social a {
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.info ul li a:hover {
+  text-decoration: underline;
+}
+
+.link-social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-social a {
+  font-size: 15px;
 }
